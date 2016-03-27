@@ -1,0 +1,6 @@
+{
+  "name": "Mcsnap",
+  "tagline": "A Code Share Place.....",
+  "body": "<!DOCTYPE html>\r\n<html>\r\n<head>\r\n<script\r\nsrc=\"http://maps.googleapis.com/maps/api/js\">\r\n</script>\r\n\r\n<script>\r\nfunction initialize() {\r\n  var mapProp = {\r\n    center:new google.maps.LatLng(51.508742,-0.120850),\r\n    zoom:5,\r\n    mapTypeId:google.maps.MapTypeId.ROADMAP\r\n  };\r\n  var map=new google.maps.Map(document.getElementById(\"googleMap\"), mapProp);\r\n}\r\ngoogle.maps.event.addDomListener(window, 'load', initialize);\r\n</script>\r\n</head>\r\n\r\n<body>\r\n<div id=\"googleMap\" style=\"width:500px;height:380px;\"></div>\r\n\r\n</body>\r\n</html>\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
