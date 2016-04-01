@@ -1,0 +1,159 @@
+body {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+#connecting {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 100;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#connecting div.txt h2 {
+    width: 350px;
+    color: #DFDFDF;
+    margin: 10px 5px;
+}
+
+#overlays {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 200;
+}
+
+#canvas {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#chat_textbox {
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    position: absolute;
+    z-index: 1;
+    bottom: 10px;
+    background: rgba(0, 0, 0, .2);
+    border: 0px;
+    outline: none;
+    color: #FFF;
+    height: 30px;
+    text-indent: 12px;
+    left: 10px;
+    width: 300px;
+}
+
+#chat_textbox:focus {
+    background: rgba(0, 0, 0, .5);
+}
+
+#minimap {
+    position: fixed;
+    bottom: 50px;
+    right: 10px;
+    width: 215.5px;
+    height: 246.5px;
+}
+
+.adBanner {
+    margin-top: 10px;
+    text-align: center;
+}
+
+div.form-group {
+    margin: 15px auto;
+    text-align: right;
+}
+
+#instructions {
+    display: block;
+}
+
+.adBanner {
+    text-align: center;
+}
+
+.helloDialogItemFirst {
+    margin: 0;
+}
+
+.helloDialogItem {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#settings {
+    display: none;
+}
+
+.only {
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+@media (min-width: 500px) {
+    .only {
+        float: left;
+    }
+}
+
+#rightbox {
+    width: 320px;
+    background-color: #FFFFFF;
+    margin: 10px auto;
+    border-radius: 5px;
+    padding: 10px 5px 10px 5px;
+    position: absolute;
+    right: -97%;
+    top: 39%;
+    webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+#leftbox {
+    width: 320px;
+    background-color: #FFFFFF;
+    margin: 10px auto;
+    border-radius: 5px;
+    padding: 10px 5px 10px 5px;
+    position: absolute;
+    right: 69%;
+    top: 40%;
+    webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+#helloDialog {
+    width: 500px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+div.form.helloDialogItem {
+    padding:20px;
+}
